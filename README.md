@@ -4,8 +4,6 @@
 
 ### **Serverless Image Processing with AWS Lambda and S3**  
 This project demonstrates how to build a **serverless image processing pipeline** using **AWS Lambda** and **Amazon S3**. Whenever an image is uploaded to an S3 bucket, a Lambda function automatically resizes it and stores the processed image in another S3 bucket.
-Source Bucket: s3://image-upds-bkt
-Destination Bucket: s3://prcsd-img-bkt
 ---
 
 ### **🚀 Features**
@@ -40,7 +38,8 @@ Destination Bucket: s3://prcsd-img-bkt
 #### **Clone this repository**
 ```sh
 git clone https://github.com/EngMohamedKemany/awsImgResize.git
-cd lambda-image-processing
+Source Bucket: s3://image-upds-bkt
+Destination Bucket: s3://prcsd-img-bkt
 ```
 
 ---
