@@ -4,7 +4,8 @@
 
 ### **Serverless Image Processing with AWS Lambda and S3**  
 This project demonstrates how to build a **serverless image processing pipeline** using **AWS Lambda** and **Amazon S3**. Whenever an image is uploaded to an S3 bucket, a Lambda function automatically resizes it and stores the processed image in another S3 bucket.
-
+Source Bucket: s3://image-upds-bkt
+Destination Bucket: s3://prcsd-img-bkt
 ---
 
 ### **🚀 Features**
@@ -102,7 +103,7 @@ def lambda_handler(event, context):
 
 Example ARN for **us-east-1** (Python 3.8):
 ```
-arn:aws:lambda:us-east-1:770693421928:layer:Klayers-python38-Pillow:5
+arn:aws:lambda:us-east-1:770693421928:layer:Klayers-p312-pillow:2
 ```
 
 ---
