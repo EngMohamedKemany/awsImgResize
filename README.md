@@ -36,23 +36,11 @@ This project demonstrates how to build a **serverless image processing pipeline*
 ---
 
 ### **📝 Setup & Deployment**
-#### **1️⃣ Clone this repository**
+#### **Clone this repository**
 ```sh
-git clone https://github.com/your-username/lambda-image-processing.git
+git clone https://github.com/EngMohamedKemany/awsImgResize.git
 cd lambda-image-processing
 ```
-
-#### **2️⃣ Install dependencies (For local packaging)**
-```sh
-pip install -r requirements.txt -t package/
-```
-
-#### **3️⃣ Zip and Upload to AWS Lambda**
-```sh
-cd package
-zip -r ../deployment-package.zip .
-```
-- Upload `deployment-package.zip` to **AWS Lambda**.
 
 ---
 
